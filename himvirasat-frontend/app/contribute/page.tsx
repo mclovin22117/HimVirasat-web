@@ -5,17 +5,32 @@ export default function ContributePage() {
     {
       id: "kangri",
       name: "Kangri",
-      formUrl: "https://forms.gle/KANGRI_FORM",
+      formUrl: "https://forms.gle/fgENxd2t5a62vuBSA",
     },
     {
       id: "mandeali",
       name: "Mandeali",
-      formUrl: "https://forms.gle/MANDEALI_FORM",
+      formUrl: "https://forms.gle/ApxgyyQGswns7uwM8",
     },
     {
-      id: "kullui",
-      name: "Kullui",
-      formUrl: "https://forms.gle/KULLUI_FORM",
+      id: "kullvi",
+      name: "Kullvi",
+      formUrl: "https://forms.gle/Gnecc3PWtYFz4v7w6",
+    },
+    {
+      id: "mahasuvi_western",
+      name: "Mahasuvi(Western)",
+      formUrl: "https://forms.gle/dgPsVoDyhW8hGG1n9",
+    },
+    {
+      id: "mahasuvi_eastern",
+      name: "Mahasuvi(Eastern)",
+      formUrl: "https://forms.gle/2aec4T8BYCGdv5vy9",
+    },
+    {
+      id: "kinnauri",
+      name: "Kinnauri",
+      formUrl: "https://forms.gle/Gnecc3PWtYFz4v7w6",
     },
   ];
 
