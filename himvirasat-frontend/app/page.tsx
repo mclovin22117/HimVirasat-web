@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { HeartIcon } from "@heroicons/react/24/outline";
-
+import Link from "next/link";
 export default function Home() {
   return (
     <div className="relative min-h-screen overflow-hidden">
@@ -28,8 +28,8 @@ export default function Home() {
 
           <p className="mt-4 max-w-2xl text-lg leading-8 text-zinc-800 dark:text-zinc-200">
             A community-driven initiative to preserve Himachal Pradesh’s
-            languages, dialects, traditions, and cultural memory - and bring them
-            into the digital age.
+            languages, dialects, traditions, and cultural memory - and bring
+            them into the digital age.
           </p>
         </div>
 
@@ -55,7 +55,7 @@ export default function Home() {
 
         <div className="mt-12 flex flex-col items-center gap-4 sm:flex-row sm:flex-wrap sm:justify-center">
           <a
-            href="https://discord.gg/REPLACE_HIMVIRASAT"
+            href="https://discord.gg/PgJWcFXRTB"
             target="_blank"
             rel="noopener noreferrer"
             className="flex h-14 items-center gap-3 rounded-full bg-white/90 px-6 text-sm font-medium text-gray-900 shadow-sm ring-1 ring-black/10 backdrop-blur transition hover:bg-white hover:shadow-md"
@@ -69,11 +69,13 @@ export default function Home() {
           </a>
 
           <a
-            href="https://discord.gg/REPLACE_HP"
+            href="https://discord.gg/wHjT3vMAVx"
             target="_blank"
             rel="noopener noreferrer"
             className="flex h-14 items-center gap-3 rounded-full bg-white/90 px-6 text-sm font-medium text-gray-900 shadow-sm ring-1 ring-black/10 backdrop-blur transition hover:bg-white hover:shadow-md"
-          >            <img
+          >
+            {" "}
+            <img
               src="/hpdiscord.png"
               alt="Himachal Pradesh"
               className="h-9 w-9 rounded-full"
@@ -82,7 +84,7 @@ export default function Home() {
           </a>
 
           <a
-            href="https://discord.gg/REPLACE_HIMVIRASAT"
+            href="https://github.com/HimVirasat"
             target="_blank"
             rel="noopener noreferrer"
             className="flex h-14 items-center gap-3 rounded-full bg-white/90 px-6 text-sm font-medium text-gray-900 shadow-sm ring-1 ring-black/10 backdrop-blur transition hover:bg-white hover:shadow-md"
@@ -94,18 +96,14 @@ export default function Home() {
             />
             HimVirasat Github
           </a>
-          <a
-            href="https://forms.gle/REPLACE_WORD_FORM"
-            target="_blank"
-            rel="noopener noreferrer"
+          <Link
+            href="/contribute"
             className="flex h-14 items-center gap-3 rounded-full bg-white/90 px-6 text-sm font-medium text-gray-900 shadow-sm ring-1 ring-black/10 backdrop-blur transition hover:bg-white hover:shadow-md"
           >
             <HeartIcon className="h-9 w-9 text-red-500 fill-red-500" />
             <span>Contribute</span>
-          </a>
-
+          </Link>
         </div>
-
 
         <footer className="mt-20 text-center text-md text-black dark:text-zinc-400">
           HimVirasat is an open, community-driven effort to preserve Himachal’s
