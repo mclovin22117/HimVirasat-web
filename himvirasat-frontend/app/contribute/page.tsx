@@ -30,7 +30,7 @@ export default function ContributePage() {
     {
       id: "kinnauri",
       name: "Kinnauri",
-      formUrl: "https://forms.gle/Gnecc3PWtYFz4v7w6",
+      formUrl: "https://forms.gle/ptALNWptVu7PFcN4A",
     },
   ];
 
