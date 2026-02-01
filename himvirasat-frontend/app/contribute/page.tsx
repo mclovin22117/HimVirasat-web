@@ -19,12 +19,12 @@ export default function ContributePage() {
     },
     {
       id: "mahasuvi_western",
-      name: "Mahasuvi(Western)",
+      name: "Mahasuvi (Western)",
       formUrl: "https://forms.gle/dgPsVoDyhW8hGG1n9",
     },
     {
       id: "mahasuvi_eastern",
-      name: "Mahasuvi(Eastern)",
+      name: "Mahasuvi (Eastern)",
       formUrl: "https://forms.gle/2aec4T8BYCGdv5vy9",
     },
     {
