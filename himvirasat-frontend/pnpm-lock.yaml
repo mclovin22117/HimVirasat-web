@@ -10,7 +10,7 @@ dependencies:
     version: 2.2.0(react@18.2.0)
   '@radix-ui/react-slot':
     specifier: ^1.2.4
-    version: 1.2.4(@types/react@18.3.27)(react@18.2.0)
+    version: 1.2.4(@types/react@18.3.7)(react@18.2.0)
   class-variance-authority:
     specifier: ^0.7.1
     version: 0.7.1
@@ -51,10 +51,16 @@ devDependencies:
     version: 5.17.0
   '@testing-library/react':
     specifier: ^14.0.0
-    version: 14.3.1(@types/react@18.3.27)(react-dom@18.2.0)(react@18.2.0)
+    version: 14.3.1(@types/react@18.3.7)(react-dom@18.2.0)(react@18.2.0)
   '@types/jest':
     specifier: ^29.5.0
     version: 29.5.14
+  '@types/react':
+    specifier: ^18.3.7
+    version: 18.3.7
+  '@types/react-dom':
+    specifier: ^18.3.7
+    version: 18.3.7(@types/react@18.3.7)
   autoprefixer:
     specifier: ^10.4.14
     version: 10.4.24(postcss@8.5.6)
@@ -1341,7 +1347,7 @@ packages:
     engines: {node: ^12.20.0 || ^14.18.0 || >=16.0.0}
     dev: true
 
-  /@radix-ui/react-compose-refs@1.1.2(@types/react@18.3.27)(react@18.2.0):
+  /@radix-ui/react-compose-refs@1.1.2(@types/react@18.3.7)(react@18.2.0):
     resolution: {integrity: sha512-z4eqJvfiNnFMHIIvXP3CY57y2WJs5g2v3X0zm9mEJkrkNv4rDxu+sg9Jh8EkXyeqBkB7SOcboo9dMVqhyrACIg==}
     peerDependencies:
       '@types/react': '*'
@@ -1350,11 +1356,11 @@ packages:
       '@types/react':
         optional: true
     dependencies:
-      '@types/react': 18.3.27
+      '@types/react': 18.3.7
       react: 18.2.0
     dev: false
 
-  /@radix-ui/react-slot@1.2.4(@types/react@18.3.27)(react@18.2.0):
+  /@radix-ui/react-slot@1.2.4(@types/react@18.3.7)(react@18.2.0):
     resolution: {integrity: sha512-Jl+bCv8HxKnlTLVrcDE8zTMJ09R9/ukw4qBs/oZClOfoQk/cOTbDn+NceXfV7j09YPVQUryJPHurafcSg6EVKA==}
     peerDependencies:
       '@types/react': '*'
@@ -1363,8 +1369,8 @@ packages:
       '@types/react':
         optional: true
     dependencies:
-      '@radix-ui/react-compose-refs': 1.1.2(@types/react@18.3.27)(react@18.2.0)
-      '@types/react': 18.3.27
+      '@radix-ui/react-compose-refs': 1.1.2(@types/react@18.3.7)(react@18.2.0)
+      '@types/react': 18.3.7
       react: 18.2.0
     dev: false
 
@@ -1581,7 +1587,7 @@ packages:
       redent: 3.0.0
     dev: true
 
-  /@testing-library/react@14.3.1(@types/react@18.3.27)(react-dom@18.2.0)(react@18.2.0):
+  /@testing-library/react@14.3.1(@types/react@18.3.7)(react-dom@18.2.0)(react@18.2.0):
     resolution: {integrity: sha512-H99XjUhWQw0lTgyMN05W3xQG1Nh4lq574D8keFf1dDoNTJgp66VbJozRaczoF+wsiaPJNt/TcnfpLGufGxSrZQ==}
     engines: {node: '>=14'}
     peerDependencies:
@@ -1590,7 +1596,7 @@ packages:
     dependencies:
       '@babel/runtime': 7.28.6
       '@testing-library/dom': 9.3.4
-      '@types/react-dom': 18.3.7(@types/react@18.3.27)
+      '@types/react-dom': 18.3.7(@types/react@18.3.7)
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
     transitivePeerDependencies:
@@ -1716,16 +1722,16 @@ packages:
   /@types/prop-types@15.7.15:
     resolution: {integrity: sha512-F6bEyamV9jKGAFBEmlQnesRPGOQqS2+Uwi0Em15xenOxHaf2hv6L8YCVn3rPdPJOiJfPiCnLIRyvwVaqMY3MIw==}
 
-  /@types/react-dom@18.3.7(@types/react@18.3.27):
+  /@types/react-dom@18.3.7(@types/react@18.3.7):
     resolution: {integrity: sha512-MEe3UeoENYVFXzoXEWsvcpg6ZvlrFNlOQ7EOsvhI3CfAXwzPfO8Qwuxd40nepsYKqyyVQnTdEfv68q91yLcKrQ==}
     peerDependencies:
       '@types/react': ^18.0.0
     dependencies:
-      '@types/react': 18.3.27
+      '@types/react': 18.3.7
     dev: true
 
-  /@types/react@18.3.27:
-    resolution: {integrity: sha512-cisd7gxkzjBKU2GgdYrTdtQx1SORymWyaAFhaxQPK9bYO9ot3Y5OikQRvY0VYQtvwjeQnizCINJAenh/V7MK2w==}
+  /@types/react@18.3.7:
+    resolution: {integrity: sha512-KUnDCJF5+AiZd8owLIeVHqmW9yM4sqmDVf2JRJiBMFkGvkoZ4/WyV2lL4zVsoinmRS/W3FeEdZLEWFRofnT2FQ==}
     dependencies:
       '@types/prop-types': 15.7.15
       csstype: 3.2.3
