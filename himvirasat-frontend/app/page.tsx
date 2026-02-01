@@ -109,9 +109,9 @@ export default function Home() {
             </Link>
           </Button>
 
-          <Button asChild className={actionButtonClass}>
+          <Button asChild className={`w-40 ${actionButtonClass}`}>
             <Link href="/contribute">
-              <HeartIcon className="h-6 w-6 text-red-500 fill-red-500" />
+              <HeartIcon className="h-6 w-6 scale-125 text-red-500 fill-red-500" />
               <span>Contribute</span>
             </Link>
           </Button>
