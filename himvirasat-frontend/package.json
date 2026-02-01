@@ -2,6 +2,9 @@
   "name": "himvirasat",
   "version": "0.1.0",
   "private": true,
+
+  "packageManager": "pnpm@8.15.0",
+
   "scripts": {
     "dev": "next dev -p 3000",
     "build": "next build",
@@ -12,6 +15,7 @@
     "test": "jest --passWithNoTests",
     "prepare": "husky install"
   },
+
   "dependencies": {
     "@heroicons/react": "^2.2.0",
     "dayjs": "^1.11.9",
@@ -19,6 +23,7 @@
     "react": "18.2.0",
     "react-dom": "18.2.0"
   },
+
   "devDependencies": {
     "@commitlint/config-conventional": "^17.5.0",
     "@tailwindcss/postcss": "^4.1.18",
