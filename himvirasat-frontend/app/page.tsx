@@ -1,6 +1,7 @@
 import Image from "next/image";
-import { HeartIcon } from "@heroicons/react/24/outline";
 import Link from "next/link";
+import { HeartIcon } from "@heroicons/react/24/outline";
+
 export default function Home() {
   return (
     <div className="relative min-h-screen overflow-hidden">
@@ -9,7 +10,7 @@ export default function Home() {
         style={{ backgroundImage: "url('/mountains1.png')" }}
       />
 
-      <div className="absolute inset-0 bg-white/45 backdrop-blur-none dark:bg-black/60" />
+      <div className="absolute inset-0 bg-white/45 dark:bg-black/60" />
 
       <main className="relative mx-auto min-h-screen max-w-4xl px-6 py-24 sm:px-12">
         <div className="flex flex-col items-center text-center">
@@ -28,7 +29,7 @@ export default function Home() {
 
           <p className="mt-4 max-w-2xl text-lg leading-8 text-zinc-800 dark:text-zinc-200">
             A community-driven initiative to preserve Himachal Pradesh’s
-            languages, dialects, traditions, and cultural memory - and bring
+            languages, dialects, traditions, and cultural memory — and bring
             them into the digital age.
           </p>
         </div>
@@ -54,53 +55,83 @@ export default function Home() {
         </section>
 
         <div className="mt-12 flex flex-col items-center gap-4 sm:flex-row sm:flex-wrap sm:justify-center">
-          <a
+          <Link
             href="https://discord.gg/PgJWcFXRTB"
             target="_blank"
             rel="noopener noreferrer"
-            className="flex h-14 items-center gap-3 rounded-full bg-white/90 px-6 text-sm font-medium text-gray-900 shadow-sm ring-1 ring-black/10 backdrop-blur transition hover:bg-white hover:shadow-md"
+            className="flex h-14 items-center gap-3 rounded-full
+             bg-white/95 text-gray-900
+             dark:bg-zinc-900 dark:text-zinc-100
+             px-6 text-sm font-medium
+             shadow-sm ring-1 ring-black/10 dark:ring-white/10
+             backdrop-blur-sm transition
+             hover:bg-white dark:hover:bg-zinc-800 hover:shadow-md"
           >
-            <img
+            <Image
               src="/virasat.png"
-              alt="Discord"
-              className="h-9 w-9 rounded-4xl"
+              alt="HimVirasat Discord"
+              width={36}
+              height={36}
+              className="rounded-full"
             />
             Join HimVirasat Discord
-          </a>
+          </Link>
 
-          <a
+          <Link
             href="https://discord.gg/wHjT3vMAVx"
             target="_blank"
             rel="noopener noreferrer"
-            className="flex h-14 items-center gap-3 rounded-full bg-white/90 px-6 text-sm font-medium text-gray-900 shadow-sm ring-1 ring-black/10 backdrop-blur transition hover:bg-white hover:shadow-md"
+            className="flex h-14 items-center gap-3 rounded-full
+             bg-white/95 text-gray-900
+             dark:bg-zinc-900 dark:text-zinc-100
+             px-6 text-sm font-medium
+             shadow-sm ring-1 ring-black/10 dark:ring-white/10
+             backdrop-blur-sm transition
+             hover:bg-white dark:hover:bg-zinc-800 hover:shadow-md"
           >
-            {" "}
-            <img
+            <Image
               src="/hpdiscord.png"
-              alt="Himachal Pradesh"
-              className="h-9 w-9 rounded-full"
+              alt="Himachal Pradesh Discord"
+              width={36}
+              height={36}
+              className="rounded-full"
             />
             Join HP Discord Community
-          </a>
+          </Link>
 
-          <a
+          <Link
             href="https://github.com/HimVirasat"
             target="_blank"
             rel="noopener noreferrer"
-            className="flex h-14 items-center gap-3 rounded-full bg-white/90 px-6 text-sm font-medium text-gray-900 shadow-sm ring-1 ring-black/10 backdrop-blur transition hover:bg-white hover:shadow-md"
+            className="flex h-14 items-center gap-3 rounded-full
+             bg-white/95 text-gray-900
+             dark:bg-zinc-900 dark:text-zinc-100
+             px-6 text-sm font-medium
+             shadow-sm ring-1 ring-black/10 dark:ring-white/10
+             backdrop-blur-sm transition
+             hover:bg-white dark:hover:bg-zinc-800 hover:shadow-md"
           >
-            <img
+            <Image
               src="/hp-github.png"
-              alt="Discord"
-              className="h-9 w-9 rounded-4xl"
+              alt="HimVirasat GitHub"
+              width={36}
+              height={36}
+              className="rounded-full"
             />
-            HimVirasat Github
-          </a>
+            HimVirasat GitHub
+          </Link>
+
           <Link
             href="/contribute"
-            className="flex h-14 items-center gap-3 rounded-full bg-white/90 px-6 text-sm font-medium text-gray-900 shadow-sm ring-1 ring-black/10 backdrop-blur transition hover:bg-white hover:shadow-md"
+            className="flex h-14 items-center gap-3 rounded-full
+             bg-white/95 text-gray-900
+             dark:bg-zinc-900 dark:text-zinc-100
+             px-6 text-sm font-medium
+             shadow-sm ring-1 ring-black/10 dark:ring-white/10
+             backdrop-blur-sm transition
+             hover:bg-white dark:hover:bg-zinc-800 hover:shadow-md"
           >
-            <HeartIcon className="h-9 w-9 text-red-500 fill-red-500" />
+            <HeartIcon className="h-6 w-6 text-red-500 fill-red-500" />
             <span>Contribute</span>
           </Link>
         </div>

@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 type DialectCardProps = {
   name: string;
   formUrl: string;
@@ -15,14 +17,14 @@ export default function DialectCard({ name, formUrl }: DialectCardProps) {
         dialect.
       </p>
 
-      <a
+      <Link
         href={formUrl}
         target="_blank"
         rel="noopener noreferrer"
         className="mt-4 inline-block rounded-full bg-emerald-600 px-4 py-2 text-sm font-medium text-white hover:bg-emerald-700"
       >
         Contribute to {name}
-      </a>
+      </Link>
     </div>
   );
 }
