@@ -48,11 +48,37 @@ export default function ContributePage() {
           <h2 className="text-2xl font-semibold text-zinc-900 dark:text-zinc-100">
             Language & Translation Contributions
           </h2>
+          <p className="mt-4 max-w-3xl text-base leading-7 text-zinc-700 dark:text-zinc-300">
+            Choose your dialect below and contribute parallel sentences to help build open
+            Hindi ↔ Himachali translation datasets for research, education, and language
+            tools.
+          </p>
+          <h3 className="mt-12 text-xl font-semibold text-zinc-900 dark:text-zinc-100">
+            🌱 Your Words Matter
+          </h3>
+          <p className="mt-4 max-w-3xl text-base leading-7 text-zinc-700 dark:text-zinc-300">
+            Every word you contribute helps keep Himachal’s languages alive in the digital
+            world. Even a single word or sentence from your dialect is valuable. It
+            captures how people actually speak, something no book or machine can recreate.
+          </p>
 
           <p className="mt-4 max-w-3xl text-base leading-7 text-zinc-700 dark:text-zinc-300">
-            Choose your dialect below and contribute parallel sentences for
-            building open Hindi ↔ Himachali translation datasets.
+            All contributions to HimVirasat are carefully tracked and verified, ensuring
+            that your effort is never lost or overlooked. As the project grows,
+            contributors will be recognized and credited across our official platforms,
+            including the HimVirasat website, our official Discord server, and community
+            posts on Reddit.
           </p>
+
+          <p className="mt-4 max-w-3xl text-base leading-7 text-zinc-700 dark:text-zinc-300">
+            You don’t need to be an expert. Just write the words you use every day that’s
+            how a language truly lives on.
+          </p>
+
+          <p className="mt-4 font-medium text-zinc-900 dark:text-zinc-100">
+            One word today can preserve a language tomorrow.
+          </p>
+
 
           <div className="mt-8 grid gap-6 sm:grid-cols-2">
             {dialects.map((dialect) => (
