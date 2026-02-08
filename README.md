@@ -157,6 +157,7 @@ himvirasat-frontend/
 ├── public/                      # Static assets
 ├── package.json                 # Dependencies & scripts
 └── README.md                    # Project documentation
+```
 
 
 **Community & Support**
