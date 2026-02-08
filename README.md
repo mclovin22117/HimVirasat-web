@@ -165,10 +165,10 @@ himvirasat-frontend/
 ![Home Screen](screenshots/homepage.png)
 
 **Community & Support**
-    - Discord: [[Join HimVirasat Community](https://discord.gg/JGaYxhRC)]
-    - HP Discrod: [[Himachal Pradesh Community](https://discord.gg/EQhJG8AVX3)]
-    - GitHub: [[HimVirasat](https://github.com/HimVirasat)]
-    - Issues: [[Report Bugs or request features](https://github.com/HimVirasat/HimVirasat-web/issues)]
+- Discord: [Join HimVirasat Community](https://discord.gg/JGaYxhRC)
+- HP Discrod: [Himachal Pradesh Community](https://discord.gg/EQhJG8AVX3)
+- GitHub: [HimVirasat](https://github.com/HimVirasat)
+- Issues: [Report Bugs or request features](https://github.com/HimVirasat/HimVirasat-web/issues)
 
 ## Together, we are preserving Himachal's heritage for future generations.
 
