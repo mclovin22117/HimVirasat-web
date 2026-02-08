@@ -159,6 +159,10 @@ himvirasat-frontend/
 └── README.md                    # Project documentation
 ```
 
+## Screenshots
+
+### Home Screen
+![Home Screen](screenshots/homepage.png)
 
 **Community & Support**
     - Discord: [[Join HimVirasat Community](https://discord.gg/JGaYxhRC)]
