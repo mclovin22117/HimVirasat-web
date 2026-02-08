@@ -139,28 +139,31 @@ Visit our Contribute page or Discord community to start contributing translation
 
 No technical knowledge required -- just your language expertise!
 
-**Project Structure**
+## Project Structure
 
+A high-level overview of the repository structure:
+
+```text
 himvirasat-frontend/
 ├── app/                         # Next.js App Router
 │   ├── page.tsx                 # Landing page
 │   ├── layout.tsx               # Root layout
 │   ├── globals.css              # Global styles
 │   └── contribute/              # Contribution-related pages
-│       └── page.tsx
 ├── components/                  # Reusable React components
 │   ├── ui/                      # Shared UI components
 │   └── DialectCard.tsx          # Dialect-specific component
 ├── lib/                         # Utility and helper functions
-├── public/                      # Static assets (images, icons, etc.)
-├── package.json                 # Project dependencies & scripts
+├── public/                      # Static assets
+├── package.json                 # Dependencies & scripts
 └── README.md                    # Project documentation
 
+
 **Community & Support**
-    - Discord: [![Join HimVirasat Community](https://discord.gg/JGaYxhRC)]
-    - HP Discrod: [![Himachal Pradesh Community](https://discord.gg/EQhJG8AVX3)]
-    - GitHub: [![HimVirasat](https://github.com/HimVirasat)]
-    - Issues: [![Report Bugs or request features](https://github.com/HimVirasat/HimVirasat-web/issues)]
+    - Discord: [[Join HimVirasat Community](https://discord.gg/JGaYxhRC)]
+    - HP Discrod: [[Himachal Pradesh Community](https://discord.gg/EQhJG8AVX3)]
+    - GitHub: [[HimVirasat](https://github.com/HimVirasat)]
+    - Issues: [[Report Bugs or request features](https://github.com/HimVirasat/HimVirasat-web/issues)]
 
 ## Together, we are preserving Himachal's heritage for future generations.
 
