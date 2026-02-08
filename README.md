@@ -1,4 +1,4 @@
-# HimVirasat Web
+# HimVirasat-Web
 
 <div align="center">
   <img src="himvirasat-frontend/public/virasat.png" alt="HimVirasat Logo" width="120"/>
@@ -111,24 +111,28 @@ By building **community-contributed, open-access translation datasets**, we prov
 4. **Open your browser**
     http://localhost:3000
 
-**Command**	| **Description**
-pnpm dev	| Start development server on port 3000
-pnpm build	| Create production build
-pnpm start	| Start production server
-pnpm lint	| Run ESLint checks
-pnpm format	| Format code with Prettier
-pnpm typecheck	| Run TypeScript type checking
-pnpm test	| Run test suite
+### Available Scripts
+
+| Command | Description |
+|---------|-------------|
+| `pnpm dev` | Start development server on port 3000 |
+| `pnpm build` | Create production build |
+| `pnpm start` | Start production server |
+| `pnpm lint` | Run ESLint checks |
+| `pnpm format` | Format code with Prettier |
+| `pnpm typecheck` | Run TypeScript type checking |
+| `pnpm test` | Run test suite |
 
 **Contributing**
+
 We welcome contributions frm developers, linguists, designers, and native speakers!
 
 For Code Contributors
 Please read CONTRIBUTING.md for detailed guidelines on:
-    - Development workflow
-    - Branch naming conventions
-    - Pull request process
-    - Code standards
+- Development workflow
+- Branch naming conventions
+- Pull request process
+- Code standards
 
 For Language Contributors
 Visit our Contribute page or Discord community to start contributing translation pairs in your native dialect.
@@ -136,18 +140,21 @@ Visit our Contribute page or Discord community to start contributing translation
 No technical knowledge required -- just your language expertise!
 
 **Project Structure**
+
 himvirasat-frontend/
-├── app/                    # Next.js App Router
-│   ├── [page.tsx](http://_vscodecontentref_/0)           # Landing page
-│   ├── layout.tsx         # Root layout
-│   ├── globals.css        # Global styles
-│   └── contribute/        # Contribution pages
-├── components/            # React components
-│   ├── ui/               # Reusable UI components
-│   └── DialectCard.tsx   # Dialect-specific components
-├── lib/                  # Utility functions
-├── public/               # Static assets
-└── [package.json](http://_vscodecontentref_/1)          # Dependencies & scripts
+├── app/                         # Next.js App Router
+│   ├── page.tsx                 # Landing page
+│   ├── layout.tsx               # Root layout
+│   ├── globals.css              # Global styles
+│   └── contribute/              # Contribution-related pages
+│       └── page.tsx
+├── components/                  # Reusable React components
+│   ├── ui/                      # Shared UI components
+│   └── DialectCard.tsx          # Dialect-specific component
+├── lib/                         # Utility and helper functions
+├── public/                      # Static assets (images, icons, etc.)
+├── package.json                 # Project dependencies & scripts
+└── README.md                    # Project documentation
 
 **Community & Support**
     - Discord: [![Join HimVirasat Community](https://discord.gg/JGaYxhRC)]
@@ -155,6 +162,6 @@ himvirasat-frontend/
     - GitHub: [![HimVirasat](https://github.com/HimVirasat)]
     - Issues: [![Report Bugs or request features](https://github.com/HimVirasat/HimVirasat-web/issues)]
 
-##Together, we are preserving Himachal's heritage for future generations.
+## Together, we are preserving Himachal's heritage for future generations.
 
-<div align="center"> Made with ❤️ for Himachal Pradesh </div> ```
+## Made with ❤️ for Himachal Pradesh
