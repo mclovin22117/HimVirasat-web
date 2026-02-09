@@ -67,7 +67,7 @@ By building **community-contributed, open-access translation datasets**, we prov
 - **Framework**: [Next.js 15.5.9](https://nextjs.org/) (React 18.2.0)
 - **Language**: [TypeScript 5.3.0](https://www.typescriptlang.org/)
 - **Styling**: [Tailwind CSS 4.0](https://tailwindcss.com/)
-- **UI Components**: [Radix UI](https://www.radix-ui.com/), Custom components with shadcn/ui patterns
+- **UI Components**: [Radix UI](https://www.radix-ui.com/), Custom components with [Shadcn/ui](https://ui.shadcn.com/) patterns
 - **Icons**: [Heroicons](https://heroicons.com/), [Lucide React](https://lucide.dev/)
 - **Theming**: next-themes for dark/light mode support
 
