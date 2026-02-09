@@ -162,7 +162,7 @@ himvirasat-frontend/
 ## Screenshots
 
 ### Home Screen
-![Home Screen](screenshots/homepage.png)
+![Home Screen](assets/homepage.png)
 
 **Community & Support**
 - Discord: [Join HimVirasat Community](https://discord.gg/JGaYxhRC)
