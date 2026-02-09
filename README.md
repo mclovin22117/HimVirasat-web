@@ -18,7 +18,7 @@
 
 **HimVirasat** (Him = Snow/Himalayas, Virasat = Heritage) is an **open-source, community-driven initiative** dedicated to documenting, preserving, and digitally representing the languages and dialects of Himachal Pradesh. 
 
-We are building the **Himachali Languages Initiative** — a platform that enables native speakers to contribute translation datasets between local dialects and Hindi, creating freely available linguistic resources for education, research, and future language technologies.
+We are building the **Himachali Languages Initiative** — a platform that enables native speakers to contribute translation datasets between local dialects and English/Hindi, creating freely available linguistic resources for education, research, and future language technologies.
 
 ---
 
