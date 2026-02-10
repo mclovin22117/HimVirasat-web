@@ -111,7 +111,7 @@ export default function Home() {
 
           <Button asChild className={actionButtonClass}>
             <Link
-              href="https://www.reddit.com/r/HimachalPradesh/" //Reddit link
+              href="https://www.reddit.com/r/HimVirasat/" //Reddit link
               target="_blank"
               rel="noopener noreferrer"
             >
